@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel, Tesoura</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedra, Papel, Tesoura</h1>
+        <div class="score-board">
+            <div class="score">Jogador: <span id="player-score">0</span></div>
+            <div class="score">Computador: <span id="computer-score">0</span></div>
+        </div>
+        <div class="choices">
+            <button id="rock">🪨 Pedra</button>
+            <button id="paper">📄 Papel</button>
+            <button id="scissors">✂️ Tesoura</button>
+        </div>
+        <div id="result"></div>
+        <button id="reset" style="display:none;">Jogar Novamente</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
